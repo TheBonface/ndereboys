@@ -12,9 +12,22 @@ border-color: #963;
 }
 .featurette-divider{
 	color: #963;
-	opacity: 10%;
 }
 body{
 	background-image: url("../img/ndere.jpg");
 	  background-color: #EED2B5;
+}
+.well{
+
+	opacity: 40%;
+}
+.back-light{
+	background-color:rgba(0, 0, 0, 0.50);
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding:10px;
+
+
+
 }
