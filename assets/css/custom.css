@@ -1,0 +1,29 @@
+
+.navbar-ndere,
+.dropdown-menu {
+	background-color: #963;
+	border-radius: 0px;
+}
+
+.navbar-ndere .navbar-nav > li > a {
+	color: white;
+}
+.navbar-nav > li > .dropdown-menu > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: #fff;
+	background-color: #a74;
+}
+.navbar-default {
+	border: 0px;
+}
+.btn-primary {
+	background-color: #963;
+	border-color: #fff;
+}
+.btn-primary.active, .btn-primary:hover{
+	background-color: #a74;
+	border-color: #fff;
+	color: #000
+}
