@@ -8,8 +8,19 @@
 	width: 100%;
 	margin-bottom: 20px;
 }
-.thumbnails .thumbnail-item img {
+.thumbnails .thumbnail-item {
+	float: left;
 	width: 100%;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.thumbnails .thumbnail-item img {
+	width: 98%;
 	border: 1px solid #E5E5E5;
 	padding: 3px;
 	background: #FFF;
