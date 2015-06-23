@@ -40,6 +40,8 @@
 	<fieldset>
 	<legend>Student's Details</legend>
 	<div class="row">
+					
+				
 					<div class="form-group col-md-3">
 						<label for="studentFName">First Name</label>
 	<input type="text" class="form-control" id="studentFName" name ="studentFName" placeholder="First Name">
@@ -64,14 +66,19 @@
 	<input type="date" class="form-control"	id ="studentDOB" name = "studentDOB" placeholder="Last Name">
 					</div>
 					<div class="form-group col-md-1"></div>
+					
 					<div class="form-group col-md-3">
 					    
-						<label for="studentGender">Gender <br />
-							<input type="radio" class="radio-inline" name="studentGender"> Male
-							<input type="radio" class="radio-inline" name="studentGender"> Female
+						<label for="gender">
+							<input type="radio" class="radio-inline" id="gender" name="gender" value='0'> Male
+							</label>
+				
+					
+						<label for="gender">
+							<input type="radio" class="radio-inline" id="gender" name="gender" value='1'> Female
 						</label>
 					</div>
-					<div class="form-group col-md-1"></div>
+					
 					<div class="form-group col-md-3">
 						<label for="studentCounty">Current Residence (County) </label>
 	<input type="text" class="form-control" id ="studentCounty" name = "studentCounty"	placeholder="Resident County">
